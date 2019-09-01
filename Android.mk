@@ -1,4 +1,4 @@
-ifeq ($(TARGET_QCOM_DISPLAY_VARIANT),caf-msm8996)
+ifeq ($(TARGET_QCOM_DISPLAY_VARIANT),msm8996-caf)
 
 sdm-libs := sdm/libs
 display-hals := include $(sdm-libs)/utils $(sdm-libs)/core
